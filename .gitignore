@@ -1,0 +1,44 @@
+# Build outputs
+/build/
+/out/
+/dist/
+/stage/
+/rootfs/
+/sysroot/
+
+# Upstream/build-system generated files
+autom4te.cache/
+config.cache
+config.log
+config.status
+Makefile
+src/auto/
+
+# C/C++ compilation artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.lo
+*.la
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Generated dependency / tooling files
+compile_commands.json
+.cache/
+
+# Temporary editor/test files
+*.tmp
+*.swp
+*.swo
+*~
+core
+core.*
+
+# Platform metadata
+.DS_Store
+Thumbs.db
